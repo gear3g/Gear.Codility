@@ -2,6 +2,6 @@
 
     public interface ILesson<TOutput, TInput> {
 
-        TOutput solution(TInput input);
+        TOutput Solution(TInput input);
     }
 }

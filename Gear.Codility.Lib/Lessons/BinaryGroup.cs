@@ -9,7 +9,7 @@ namespace Gear.Codility.Lib.Lessons
     /// <typeparam name="int"></typeparam>
     public class BinaryGroup : ILesson<int, int> {
 
-        public int solution(int input) {
+        public int Solution(int input) {
             int max = 0;
             int currentGap = 0;
             var binaryString = Convert.ToString(input, 2).ToString();;

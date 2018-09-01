@@ -9,7 +9,7 @@ namespace Gear.Codility.Lib.Lessons {
     /// <typeparam name="OddOccurrencesInArrayArgument"></typeparam>
     public class OddOccurrencesInArray : ILesson<int, OddOccurrencesInArrayArgument>
     {
-        public int solution(OddOccurrencesInArrayArgument input)
+        public int Solution(OddOccurrencesInArrayArgument input)
         {
             var A = input.A;
             var N = input.N;

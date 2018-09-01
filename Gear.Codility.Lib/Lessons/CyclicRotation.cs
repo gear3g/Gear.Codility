@@ -9,7 +9,7 @@ namespace Gear.Codility.Lib.Lessons {
     /// <typeparam name="CyclicRotationArgument"></typeparam>
     public class CyclicRotation : ILesson<int[], CyclicRotationArgument>
     {
-        public int[] solution(CyclicRotationArgument input)
+        public int[] Solution(CyclicRotationArgument input)
         {
             var A = input.A;
             var K = input.K;

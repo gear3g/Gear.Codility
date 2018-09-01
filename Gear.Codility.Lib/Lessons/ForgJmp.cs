@@ -7,7 +7,7 @@ namespace Gear.Codility.Lib.Lessons {
     /// <typeparam name="FrogJmpArgument"></typeparam>
     public class FrogJmp : ILesson<int, FrogJmpArgument> {
 
-        public int solution(FrogJmpArgument input) {
+        public int Solution(FrogJmpArgument input) {
             var X = input.X;
             var Y = input.Y;
             var D = input.D;

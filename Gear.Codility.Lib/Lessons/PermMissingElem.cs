@@ -7,7 +7,7 @@ namespace Gear.Codility.Lib.Lessons {
     /// <typeparam name="int[]"></typeparam>
     public class PermMissingElem : ILesson<int, int[]> {
 
-        public int solution(int[] input) {
+        public int Solution(int[] input) {
             var A = input;
 
             int sum = 1;
