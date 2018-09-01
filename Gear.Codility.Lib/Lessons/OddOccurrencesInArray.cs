@@ -1,7 +1,12 @@
 using System.Collections.Generic;
 
-namespace Gear.Codility.Lib.Lessons
-{
+namespace Gear.Codility.Lib.Lessons {
+
+    /// <summary>
+    /// https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
+    /// </summary>
+    /// <typeparam name="int"></typeparam>
+    /// <typeparam name="OddOccurrencesInArrayArgument"></typeparam>
     public class OddOccurrencesInArray : ILesson<int, OddOccurrencesInArrayArgument>
     {
         public int solution(OddOccurrencesInArrayArgument input)
